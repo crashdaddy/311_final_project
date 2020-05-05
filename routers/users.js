@@ -6,7 +6,7 @@ router.get('/', usersController.getAllUsers)
 
 router.get('/:id', usersController.getUserById)
 
-router.post('/', usersController.createUser)
+//router.post('/api/customers/', usersController.createUser)
 
 router.put('/:id', usersController.updateUserById)
 
